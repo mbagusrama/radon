@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+}
+
+.Footer {
+  background-color: #1D211C;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+p {
+  font-weight: 300;
+  font-size: 24px;
+  color: #FBF8EF;
+  justify-content: center;
+  margin: 0;
+  margin-top: 1rem;
+}
+
+.email-logo {
+  padding: 20px;
+}
+
+.telephone-logo {
+  padding: 20px;
+}

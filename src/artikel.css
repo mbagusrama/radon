@@ -1,0 +1,15 @@
+.Artikel {
+  background: #314430;
+  padding: 180px 20px;
+}
+
+.Row {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-evenly;
+  row-gap: 75px;
+}
+
+.pages {
+  display: grid;
+}

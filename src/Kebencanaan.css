@@ -1,0 +1,68 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.Kebencanaan {
+  background: url(./img/Rectangle\ 1.png);
+}
+
+.Kebencanaan-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 10px;
+}
+
+.Kebencanaan-search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 30px;
+}
+
+.Kebencanaan-title {
+  /* Font belum dimasukkan */
+  /* font-family: 'Poppins'; */
+  height: 50px;
+  text-align: center;
+  font-size: 44px;
+  letter-spacing: 0.675em;
+  margin: 6px 0;
+  font-weight: 800;
+}
+
+.Kebencanaan-text {
+  /* width: 817px; */
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  height: 50px;
+  margin: 6px 0;
+  font-weight: 400;
+}
+
+.search-bar {
+  background: white;
+  width: 750px;
+  height: 75px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-width: 2px;  
+  margin: 6px 0;
+}
+
+input[type=text] {
+  width: 550px;
+  height: 60px;
+  font-size: 28px;
+  border-style: none;
+  padding: 0 5px;
+}
+
+.search-logo {
+  padding: 0 10px;
+}
